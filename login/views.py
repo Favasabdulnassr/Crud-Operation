@@ -50,14 +50,9 @@ def validate_username(username):
         return False
     return True
 
-def decorat(fun):
-    def wrapper(req):
-        print('hi')
-        return fun(req)
-    return wrapper
+
         
 
-@decorat
 def sign_up(request):
     #in case if the tab goes backb=ward redirect to the home page : for kpreventing goiong back
     if 'username' in request.session:
