@@ -1,0 +1,102 @@
+body {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 80%;
+    transition: max-width 0.3s;
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #444;
+    transition: font-size 0.3s;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.label {
+    font-weight: 500;
+    color: #333;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-neon {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #1DD1A1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s;
+
+}
+
+.btn-neon:hover {
+    background-color: #10A881;
+    text-decoration: none;
+}
+
+@media (max-width: 350px) {
+    .login-container {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .login-title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 280px) {
+    .login-container {
+        max-width: 90%;
+        padding: 10px;
+    }
+
+    .login-title {
+        font-size: 20px;
+    }
+}
+.hai {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.hai:hover {
+    color: hsl(165, 83%, 36%);
+}
